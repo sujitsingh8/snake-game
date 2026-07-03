@@ -1,10 +1,10 @@
-# 🐍 Snake — Terminal Edition
+# Snake — Terminal Edition
 
 A classic Snake game that runs entirely in the terminal. Built in Python with no external libraries — just the standard library and clean separation across four modules.
 
 ---
 
-## 📸 Demo
+## Demo
 
 ```
 ┌────────────────────────────────────────┐
@@ -22,7 +22,7 @@ A classic Snake game that runs entirely in the terminal. Built in Python with no
 **Menu screen:**
 ```
   ╔══════════════════════════════╗
-  ║        🐍  SNAKE  🐍        ║
+  ║            SNAKE             ║
   ║       Terminal Edition       ║
   ╚══════════════════════════════╝
 
@@ -34,7 +34,7 @@ A classic Snake game that runs entirely in the terminal. Built in Python with no
 
 ---
 
-## ✨ Features
+## Features
 
 - Three difficulty levels — Easy, Medium, Hard — with different move speeds
 - Live score display and persistent high score across rounds
@@ -45,7 +45,7 @@ A classic Snake game that runs entirely in the terminal. Built in Python with no
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 snake-terminal/
@@ -58,7 +58,7 @@ snake-terminal/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Requirements:** Python 3.7+, no external libraries needed.
 
@@ -76,7 +76,7 @@ python main.py
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Key | Action |
 |---|---|
@@ -88,7 +88,7 @@ python main.py
 
 ---
 
-## ⚙️ Settings
+## Settings
 
 All constants live in `settings.py` and can be tweaked without touching game logic:
 
@@ -105,7 +105,7 @@ All constants live in `settings.py` and can be tweaked without touching game log
 
 ---
 
-## 🧩 Architecture
+## Architecture
 
 The game loop in `main.py` follows a straightforward cycle each tick:
 
